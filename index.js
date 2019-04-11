@@ -6,15 +6,15 @@ function isNumberInRange(props) {
 }
 
 var res = isNumberInRange(5);
-console.log(res);
+console.log('taks 1 ', res);
 
 // task 2
-function isEvan(props) {
+function isEven(props) {
   return props % 2 === 0;
 }
 
-var res2 = isEvan(2);
-console.log(res2);
+var res2 = isEven(2);
+console.log('taks 2 ', res2);
 
 //task 3
 var value = +prompt('value?', '');
@@ -41,4 +41,4 @@ function min(a, b) {
 }
 
 var res3 = min(10, -5);
-console.log(res3);
+console.log('taks 4 ', res3);
